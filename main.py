@@ -234,7 +234,7 @@ def start_train():
 	print("\nmodel training...")
 	avg_score = ml_solver.cross_validate()
 	print("average score:", avg_score)
-	print("model training finished.")
+	print("model training is finished.")
 
 	print("\nfinding potential customers...")
 	customer_list = ml_solver.potantial_customers()
